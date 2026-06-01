@@ -7,4 +7,4 @@ __pycache__/
 data/documents/
 data/vectorstore/
 
-.DS_Store
+.DS_Store  
