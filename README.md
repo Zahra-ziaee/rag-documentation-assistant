@@ -72,6 +72,14 @@ Source-Grounded Answer
 
 ---
 
+## App Preview
+
+The Streamlit interface allows users to upload a technical document, process it into chunks, build a local vector database, ask questions, and view retrieved sources.
+
+![RAG Documentation Assistant Demo](screenshots/rag_app_demo.png)
+
+---
+
 ## Project Structure
 
 ```text
@@ -83,6 +91,9 @@ rag-documentation-assistant/
 ├── data/
 │   ├── documents/
 │   └── vectorstore/
+│
+├── screenshots/
+│   └── rag_app_demo.png
 │
 ├── src/
 │   ├── __init__.py
@@ -386,6 +397,26 @@ This prevents local environment files, uploaded documents, API keys, and vector 
 
 ---
 
+## Environment Variables
+
+This project includes:
+
+```text
+.env.example
+```
+
+The `.env.example` file is a template for future environment variables.
+
+The actual `.env` file should not be committed to GitHub.
+
+Current local version does not require an OpenAI API key. However, a future LLM-based version can use:
+
+```text
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+---
+
 ## Current Status
 
 Completed:
@@ -402,6 +433,7 @@ Completed:
 - Extractive answer generation
 - Retrieved source display
 - Local no-cost execution
+- App screenshot in README
 
 ---
 
