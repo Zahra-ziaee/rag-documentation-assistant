@@ -473,7 +473,7 @@ Planned improvements:
 
 ---
 
-## Resume Summary
+## Key Takeaways
 
 ```text
 RAG Technical Documentation Assistant | Python, Streamlit, LangChain, ChromaDB, SentenceTransformers
