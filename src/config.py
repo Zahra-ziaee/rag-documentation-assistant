@@ -15,3 +15,6 @@ RETRIEVAL_K = 4
 
 # Local embedding model - no OpenAI quota needed
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+# Heuristic cosine similarity cutoff for extractive answers (not calibrated).
+# Tune using relevant and irrelevant questions on representative documents.
+MIN_RELEVANCE_SCORE = 0.35
