@@ -1,0 +1,1 @@
+SQL demo documentation. A SQL JOIN combines rows from two tables using matching keys. GROUP BY groups rows for aggregation.
